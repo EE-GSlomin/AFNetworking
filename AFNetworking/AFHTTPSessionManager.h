@@ -233,6 +233,8 @@
                          success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
                          failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure;
 
+-(void)changeBaseUrlTo:(NSURL *)baseUrl;
+
 @end
 
 #endif
