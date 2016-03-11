@@ -358,4 +358,9 @@
     return HTTPClient;
 }
 
+-(void)changeBaseUrlTo:(NSURL *)baseUrl {
+    self.baseURL = baseUrl;
+}
+
+
 @end

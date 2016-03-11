@@ -290,6 +290,8 @@ NS_ASSUME_NONNULL_BEGIN
                          success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
                          failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure;
 
+-(void)changeBaseUrlTo:(NSURL *)baseUrl;
+
 @end
 
 NS_ASSUME_NONNULL_END
